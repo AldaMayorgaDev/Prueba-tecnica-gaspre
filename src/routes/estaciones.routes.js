@@ -7,6 +7,6 @@ const router = Router();
 
 // ** Rutas y Metodos
 
-router.get('/employees/:id', getEstacionByID);
+router.get('/station/:id', getEstacionByID);
 
 module.exports = router; 
